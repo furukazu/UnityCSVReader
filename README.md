@@ -25,3 +25,34 @@ var res = CSVReader.ParseCSV((Resources.Load("CSV/data") as TextAsset).text);
 
 ## License
 MIT
+
+
+
+# UnityCSVReader
+Unity用のCSV読み込み機構の実装(C#で作りました)
+
+ちゃんとしたのが欲しかったら→ https://github.com/JoshClose/CsvHelper これ使った方が良いと思います
+
+この CSVReader は単一のファイルによる実装なので、導入や除去が簡単です。雑にコピペして入れることもできます。
+
+## 使い方
+
+```
+// using System.IO;
+var result = CSVReader.ParseCSV(File.ReadAllText(@"/Users/furukazu/data.csv"));
+
+foreach(var result in data){
+    foreach(var col in line){
+        // process the data
+    }
+}
+
+// Resource から読む場合
+// Assets/Resources/CSV/data.csv があるものとします
+var res = CSVReader.ParseCSV((Resources.Load("CSV/data") as TextAsset).text);
+
+```
+
+## License
+MIT
+
