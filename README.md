@@ -11,7 +11,7 @@ This CSVReader interprets quoted-string, escaped double quote and new line.  Thi
 // using System.IO;
 var result = CSVReader.ParseCSV(File.ReadAllText(@"/Users/furukazu/data.csv"));
 
-foreach(var result in data){
+foreach(var line in result){
     foreach(var col in line){
         // process the data
     }
@@ -41,7 +41,7 @@ Unity用のCSV読み込み機構の実装(C#で作りました)
 // using System.IO;
 var result = CSVReader.ParseCSV(File.ReadAllText(@"/Users/furukazu/data.csv"));
 
-foreach(var result in data){
+foreach(var line in result){
     foreach(var col in line){
         // 内容を処理する
     }
