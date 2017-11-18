@@ -3,7 +3,7 @@ CSV Reader for Unity(implemented using C#)
 
 If you want stable module, use https://github.com/JoshClose/CsvHelper
 
-This CSVReader interprets quoted-string, escaped double quote and new line.  It is implemented in a single file.  You can put (and remove) this class easily.
+This CSVReader interprets quoted-string, escaped double quote and new line.  This class is implemented in a single file.  You can put (and remove) this class easily.
 
 ## How to use
 
