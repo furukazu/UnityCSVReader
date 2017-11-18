@@ -43,8 +43,8 @@ var result = CSVReader.ParseCSV(File.ReadAllText(@"/Users/furukazu/data.csv"));
 
 foreach(var result in data){
     foreach(var col in line){
-        // process the data
-    }
+        // 内容を処理する
+    }
 }
 
 // Resource から読む場合
