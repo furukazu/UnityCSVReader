@@ -3,7 +3,7 @@ CSV Reader for Unity(implemented using C#)
 
 If you want stable module, use https://github.com/JoshClose/CsvHelper
 
-This CSVReader is implemented in a single file.  You can put (and remove) this class easily.
+This CSVReader interprets quoted-string, escaped double quote and new line.  It is implemented in a single file.  You can put (and remove) this class easily.
 
 ## How to use
 
@@ -31,9 +31,9 @@ MIT
 # UnityCSVReader
 Unity用のCSV読み込み機構の実装(C#で作りました)
 
-ちゃんとしたのが欲しかったら→ https://github.com/JoshClose/CsvHelper これ使った方が良いと思います
+ちゃんとしたのが欲しかったら→ https://github.com/JoshClose/CsvHelper これ使った方が良いと思います。
 
-この CSVReader は単一のファイルによる実装なので、導入や除去が簡単です。雑にコピペして入れることもできます。
+この CSVReader は " や改行が含まれている CSV ファイルを解釈できます。また、単一のファイルによる実装なので、導入や除去が簡単です。雑にコピペして入れることもできます。
 
 ## 使い方
 
